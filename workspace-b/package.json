@@ -1,0 +1,20 @@
+{
+  "name": "workspace-b",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
+  },
+  "dependencies": {
+    "histoire": "^0.7.9"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.0",
+    "vue": "^3.2.25"
+  }
+}

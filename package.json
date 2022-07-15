@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": ["workspace-a", "workspace-b"],
+  "scripts": {
+    "story:dev": "pnpm --filter workspace-b story:dev",
+    "story:build": "pnpm --filter workspace-b story:build",
+    "story:preview": "pnpm --filter workspace-b story:preview"
+  },
+  "devDependencies": {
+    "pnpm": "^7.5.1"
+  }
+}
+
