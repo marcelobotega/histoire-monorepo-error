@@ -5,4 +5,13 @@ export default defineConfig({
         '**/*.story.vue',
         '../workspace-a/src/**/*.story.vue',
     ],
+    vite: {
+        server: {
+            fs: {
+                allow: [
+                    '../workspace-a/src',
+                ],
+            },
+        },
+    },
 });
